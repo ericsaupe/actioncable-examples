@@ -5,7 +5,7 @@ gem 'sprockets-rails', github: "rails/sprockets-rails"
 gem 'arel', github: "rails/arel"
 gem 'actioncable', github: "rails/actioncable"
 
-gem 'sqlite3'
+gem 'pg'
 gem 'puma'
 
 gem 'sass-rails', '~> 5.0'
