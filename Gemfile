@@ -24,3 +24,5 @@ group :development do
   gem 'web-console', github: 'rails/web-console'
   gem 'spring'
 end
+
+ruby "2.2.2"
