@@ -130,6 +130,8 @@ GEM
     erubis (2.7.0)
     eventmachine (1.0.7)
     execjs (2.5.2)
+    faker (1.4.3)
+      i18n (~> 0.5)
     faye-websocket (0.9.2)
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.5.1)
@@ -210,6 +212,7 @@ DEPENDENCIES
   bootstrap-sass (~> 3.3.5)
   byebug
   coffee-rails!
+  faker
   foreman
   jbuilder (~> 2.0)
   jquery-rails

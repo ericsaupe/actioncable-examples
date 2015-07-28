@@ -6,5 +6,9 @@ snoop = User.create! name: 'Snoop Dogg'
 flex  = User.create! name: 'Funkmaster Flex'
 ice   = User.create! name: 'Ice Cube'
 
+while User.count < 25
+  User.create! name: Faker::Name.name
+end
+
 Message.create! title: 'Tha Shiznit', content: 'Poppin, stoppin, hoppin like a rabbit', user: snoop
 Message.create! title: 'Hypnotize ', content: 'Hah, sicker than your average Poppa', user: big
