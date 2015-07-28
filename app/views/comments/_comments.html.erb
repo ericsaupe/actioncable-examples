@@ -1,5 +1,8 @@
-<section id="comments" data-channel="comments" data-message-id="<%= message.id %>">
-  <%= render message.comments %>
-</section>
-
-<%= render 'comments/new', message: message %>
+<div class="col-md-4">
+  <%= render 'comments/new', message: message %>
+</div>
+<div class="col-md-8">
+  <section id="comments" data-channel="comments" data-message-id="<%= message.id %>">
+    <%= render message.comments %>
+  </section>
+</div>
