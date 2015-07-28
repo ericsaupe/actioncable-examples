@@ -3,4 +3,5 @@
 #= require_tree .
 
 @App = {}
-App.cable = Cable.createConsumer 'ws://localhost:28080'
+host = window.location.hostname
+App.cable = Cable.createConsumer 'ws://' + host + ':28080'
